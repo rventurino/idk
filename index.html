@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>idk</title>
+  </head>
+  <body>
+    <h1>idk</h1>
+    <p>gimme a number yo</p>
+    <form>
+      <input type="text" id="input_id" value="" />
+      <input type="button" value="Submit" onclick="wawa()" />
+      <div id="alert" style="color: red"></div>
+    </form>
+
+    <div id="meow"></div>
+
+    <script>
+      function wawa() {
+        var variable = document.getElementById("input_id").value;
+        var outputString = "";
+        for (let i = 0; i < variable; i++) {
+          outputString += "idk";
+        }
+        document.getElementById("meow").innerHTML += outputString;
+      }
+    </script>
+  </body>
+</html>
